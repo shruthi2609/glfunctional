@@ -1,12 +1,12 @@
-import SimpleState from "./StateInFunctional/SimpleState"
-import WelcomePage from "./StateInFunctional/WelcomePage"
-import WithDestructing from "./StateInFunctional/WithDesturcting"
+import ContactManager from "./LCMInFunctional/ContactManager"
+
+
 
 function App()
 {
     return(
         <div>
-           <WelcomePage></WelcomePage>
+          <ContactManager></ContactManager>
         </div>
     )
 }
