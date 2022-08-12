@@ -5,8 +5,8 @@ function App()
 {
     return(
         <div>
-       {/** <ContextProviderEg></ContextProviderEg>*/}
-       <AuthProvider></AuthProvider>
+      <ContextProviderEg></ContextProviderEg>
+       
         </div>
     )
 }

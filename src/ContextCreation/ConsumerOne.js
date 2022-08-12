@@ -1,11 +1,11 @@
 import SimpleContext from "./ContextCreationEg"
 import { useContext } from "react"
 const ConsumerOne=()=>{
-    const value=useContext(SimpleContext)
+    const {value,handleValue}=useContext(SimpleContext)
     return(
         <div>
-            
             <h1>{value}</h1>
+            <button onClick={handleValue}>change</button>
         </div>
     )
 }
