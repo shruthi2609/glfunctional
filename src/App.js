@@ -1,13 +1,12 @@
 
-import FormHook from "./HookConsumers/FormHook"
-import ContactManager from "./LCMInFunctional/ContactManager"
-import FetchAPI from "./LCMInFunctional/FetchAPI"
+import AuthProvider from "./AuthContext/AuthProvider"
+import ContextProviderEg from "./ContextCreation/ContextProviderEg"
 function App()
 {
     return(
         <div>
-       { /*  <ContactManager></ContactManager>*/}
-       <FormHook></FormHook>
+       {/** <ContextProviderEg></ContextProviderEg>*/}
+       <AuthProvider></AuthProvider>
         </div>
     )
 }
