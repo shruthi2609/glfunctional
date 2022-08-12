@@ -5,7 +5,7 @@ function App()
 {
     return(
         <div>
-      <ContextProviderEg></ContextProviderEg>
+      <AuthProvider></AuthProvider>
        
         </div>
     )
