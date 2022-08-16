@@ -1,11 +1,11 @@
 
-import AuthProvider from "./AuthContext/AuthProvider"
-import ContextProviderEg from "./ContextCreation/ContextProviderEg"
+import CounterConnector from "./React Redux Setup/CounterConnector"
+
 function App()
 {
     return(
         <div>
-      <AuthProvider></AuthProvider>
+     <CounterConnector></CounterConnector>
        
         </div>
     )
