@@ -1,13 +1,11 @@
-
-import GetUserConnector from "./component/GetUserConnector"
-import CounterConnector from "./React Redux Setup/CounterConnector"
-
+import DashBoard from "./redux tookit configs/Toolkit components/DashBoard"
+import LoginComponent from "./redux tookit configs/Toolkit components/LoginComponent"
 function App()
 {
     return(
         <div>
-    <GetUserConnector></GetUserConnector>
-       
+       <DashBoard></DashBoard>
+       <LoginComponent></LoginComponent>
         </div>
     )
 }
