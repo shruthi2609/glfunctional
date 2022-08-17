@@ -1,11 +1,12 @@
 
+import GetUserConnector from "./component/GetUserConnector"
 import CounterConnector from "./React Redux Setup/CounterConnector"
 
 function App()
 {
     return(
         <div>
-     <CounterConnector></CounterConnector>
+    <GetUserConnector></GetUserConnector>
        
         </div>
     )
