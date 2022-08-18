@@ -1,11 +1,9 @@
-import DashBoard from "./redux tookit configs/Toolkit components/DashBoard"
-import LoginComponent from "./redux tookit configs/Toolkit components/LoginComponent"
+import ViewUsers from "./CRUD using Toolkit/CRUD Components/ViewUsers"
 function App()
 {
     return(
         <div>
-       <DashBoard></DashBoard>
-       <LoginComponent></LoginComponent>
+            <ViewUsers></ViewUsers>
         </div>
     )
 }
