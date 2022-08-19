@@ -1,3 +1,5 @@
+import FormsInput from "./formelements/FormsInput"
+import FormComponent from "./UseForm Example/FormComponent"
 import ParentForm from "./Using Ref/ParentForm"
 import SampleRefComponent from "./Using Ref/SampleRefComponent"
 
@@ -5,7 +7,7 @@ function App()
 {
     return(
        <div>
-       <ParentForm></ParentForm>
+  <FormComponent></FormComponent>
        </div>
     )
 }
