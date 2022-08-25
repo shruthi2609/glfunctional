@@ -1,6 +1,6 @@
 import axios from 'axios'
 import {useNavigate} from 'react-router-dom'
-
+axios.defaults.withCredentials=true // add this is important
 function DashBoardCookies(){
     const navigate=useNavigate()
     const updateMethod=()=>{
