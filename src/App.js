@@ -1,11 +1,8 @@
-import FormsInput from "./formelements/FormsInput"
-import FormComponentJoi from "./Joi Browser Eg/FormComponent"
-import LoginToken from "./jwt tokens/LoginToken"
-import FormComponent from "./UseForm Example/FormComponent"
-import ParentForm from "./Using Ref/ParentForm"
-import SampleRefComponent from "./Using Ref/SampleRefComponent"
+import LoginCookies from './cookies and jwt/LoginCookies'
 import {BrowserRouter,Route,Routes,Link} from 'react-router-dom'
-import DashBoardToken from "./jwt tokens/DashBoard"
+import DashboardCookies from './cookies and jwt/DashboardCookies'
+import LoginComponent from './cookies and jwt/LoginComponent'
+
 
 function App()
 {
@@ -13,8 +10,8 @@ function App()
        <div>
         <BrowserRouter>
         <Routes>
-            <Route path='/' element={<LoginToken></LoginToken>}></Route>
-            <Route path='/dashboard' element={<DashBoardToken></DashBoardToken>}></Route>
+            <Route path='/' element={<LoginComponent></LoginComponent>}></Route>
+            <Route path='/dashboard' element={<DashboardCookies></DashboardCookies>}></Route>
         </Routes>
         </BrowserRouter>
        </div>
