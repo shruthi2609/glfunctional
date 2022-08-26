@@ -16,7 +16,7 @@ function LoginComponent(){
     }
     const handleLogin=(e)=>{
         e.preventDefault()
-        axios.post('http://localhost:3001/login',{email:useremail,password:userpassword}).then((res)=>{
+        axios.post('http://localhost:3001/signin',{email:useremail,password:userpassword}).then((res)=>{
         setStatus(res.data.status)}).catch((e)=>console.log(e))
     }
     return(
